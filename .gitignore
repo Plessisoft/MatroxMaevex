@@ -1,0 +1,11 @@
+bin/
+obj/
+.vs/
+*.user
+
+# Configuration locale de déploiement (IP, identifiants)
+deploy.config.psd1
+
+# Programme SIMPL de test et variante SIMPL+/Python : non publiés
+SIMPL/
+deploy-python.ps1

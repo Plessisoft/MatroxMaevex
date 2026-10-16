@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+    <!-- Programme SIMPL de test (fichiers générés SPlsWork\*.cs...) et banc de test Tests\ : hors du projet C#. -->
+    <DefaultItemExcludes>$(DefaultItemExcludes);SIMPL\**;Tests\**</DefaultItemExcludes>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Crestron.SimplSharp.SDK.Program" Version="2.22.15" />
+  </ItemGroup>
+
+</Project>
