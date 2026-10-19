@@ -103,6 +103,8 @@ dotnet build MatroxMaevex.csproj
 
 Le fichier à charger est produit dans `bin\Debug\net8.0\MatroxMaevex.cpz`.
 
+Une version compilée prête à charger est aussi fournie dans [`release/MatroxMaevex.cpz`](release/MatroxMaevex.cpz).
+
 ## Déploiement
 
 Les scripts PowerShell recompilent le projet et envoient le `.cpz` par SFTP dans
